@@ -8,7 +8,7 @@
             v-bind:key="index"
             v-bind:id="post.id"
             v-bind:content="post.body"
-            v-bind:date="Date.now()"
+            v-bind:date="Date(Date.now())"
             :title="post.title"
             :src="backImage(post.id)"
             class="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd is-clickable"
